@@ -16,9 +16,15 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: 
+// Explanation: the nested function can access internal becuase of lexical scope, it can access anything within its area
 
 
 /* Task 2: Counter */
 
-/* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+/* Create a function called `summation` that accepts a parameter and 
+uses a counter to return the summation of that number. For example, 
+`summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+function summation(par) {
+  return
+}
